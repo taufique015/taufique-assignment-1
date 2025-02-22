@@ -12,7 +12,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 36px;
+    margin-bottom: 24px;
 }
 .btn-sign-in{
     box-sizing: border-box;
@@ -31,11 +31,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 1280px;
-    height: 560px;
+    height: 500px;
+    margin-bottom: 60px ;
 }
 .btn-hero-banner{
     flex-direction: row;
     border-radius: 8px;
+    border: none;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
     width: 270px;
@@ -51,11 +53,25 @@ h1{
     font-size: 42px;
     font-weight: 700;
     width: 460px;
+    margin: 24px 0;
 }
-p[class="hero-p"]{
+h3{
+    font-weight: 700px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.hero-h1{
+    width: 500px;
+    height: auto;
+}
+.hero-p{
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
+}
+.pillar-section{
+    display: flex;
+    justify-content: space-between;
 }
 .pillar, .vision-section{
     display: inline-block;
@@ -67,25 +83,96 @@ p[class="hero-p"]{
     background: rgb(255, 255, 255);
     padding: 24px;
     width: 300px;
-    height: 240px;
-    margin: 0 15px 20px 0;
 }
 .paragraph{
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    margin-top: -0.5em;
 }
 .vision-container{
     display: flex;
-    margin: 24px 0;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 32px auto ;
 }
 .vision-section{
-    padding: 32px;
     flex: 1;
+    padding: 32px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vision-card{
     flex-grow: 1;
-    margin-right: 24px;
+}
+.card-icon{
+    justify-content: left;
+    width: 64px;
 }
 .btn-learn-more{
+    color: rgb(255, 255, 255);
+    border: none;
     border-radius: 8px;
+    width: 128px;
     padding: 11px 20px 11px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#digital-transformation{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+#green-energy{
+    background-color: rgb(198, 228, 214);
+}
+#modern-infrastructure{
+    background-color: rgb(247, 235, 207);
+}
+#btn-vision-1{
+    background-color: rgb(84, 144, 245);
+}
+#btn-vision-2{
+    background-color: rgb(9, 161, 92);
+}
+#btn-vision-3{
+    background-color: rgb(255, 194, 57);
+}
+.quote-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 32px 24px;
+}
+.quote{
+    background: url(../resources/B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat ;
+    padding-top: 28px;
+}
+.table-container{
+    padding: 32px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(198, 228, 214);
+    padding: 24px;
+    text-align: left;
+}
+td{
+    padding: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+select{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
 }
