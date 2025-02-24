@@ -14,6 +14,9 @@ nav{
     align-items: center;
     margin-bottom: 24px;
 }
+section{
+    margin: 80px auto;
+}
 h1{
     font-size: 42px;
     font-weight: 700;
@@ -138,24 +141,6 @@ select{
     font-size: 16px;
     font-weight: 600;
 }
-#digital-transformation{
-    background-color: rgba(84, 144, 245, 0.2);
-}
-#green-energy{
-    background-color: rgb(198, 228, 214);
-}
-#modern-infrastructure{
-    background-color: rgb(247, 235, 207);
-}
-#btn-vision-1{
-    background-color: rgb(84, 144, 245);
-}
-#btn-vision-2{
-    background-color: rgb(9, 161, 92);
-}
-#btn-vision-3{
-    background-color: rgb(255, 194, 57);
-}
 .quote-container{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -187,11 +172,11 @@ select{
     font-weight: 600;
 }
 .opinion{
-    width: 18%
+    width: 17%
 }
 .recent-news-container{
-    padding: 48px;
     display: flex;
+    padding: 48px;
     gap: 32px;
     margin-bottom: 24px;
     background: rgb(255, 255, 255);
@@ -207,7 +192,7 @@ select{
 .satellite{
     border-radius: 24px;
 }
-.read-more-btn{
+.more-btn{
     font-size: 18px;
     font-weight: 600;
     padding: 13px 26px;
@@ -215,4 +200,77 @@ select{
     border: none;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 80px;
+    gap: 16px;
+}
+.donation-amount{
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.donation-container{
+    display: flex;
+    gap: 24px;
+}
+.newsletter{
+    display: flex;
+    padding: 0px;
+}
+.newsletter-email{
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    width: 520px;
+    padding: 18px 40px;
+}
+#digital-transformation{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+#green-energy{
+    background-color: rgb(198, 228, 214);
+}
+#modern-infrastructure{
+    background-color: rgb(247, 235, 207);
+}
+#btn-vision-1{
+    background-color: rgb(84, 144, 245);
+}
+#btn-vision-2{
+    background-color: rgb(9, 161, 92);
+}
+#btn-vision-3{
+    background-color: rgb(255, 194, 57);
+}
+#donate-today{
+    width: fit-content;
+}
+#selected-donation{
+    background-color: rgb(198, 228, 214);
+}
+#other-amount{
+    width: 900px;
+    padding: 20px 40px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+#newsletter-container{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px;
+    gap: 16px;
+}
+input[value="Subscribe"]{
+    border-radius: 0px 8px 8px 0px;
 }
