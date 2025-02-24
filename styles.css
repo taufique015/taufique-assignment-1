@@ -3,9 +3,14 @@
     font-family: 'Fira Sans';
 }
 body{
+    background-color: rgb(241, 241, 243);
+}
+header, main{
     max-width: 1280px;
     margin: auto;
-    background-color: rgb(241, 241, 243);
+}
+footer{
+    background-color: rgb(255, 255, 255);
 }
 nav{
     display: flex;
@@ -14,7 +19,7 @@ nav{
     margin-bottom: 24px;
 }
 section{
-    margin: 80px auto;
+    margin: 40px auto;
 }
 h1{
     font-size: 40px;
@@ -141,7 +146,7 @@ select{
 }
 .btn-hover:hover{
     cursor: pointer;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(14, 14, 14, 0.45);
     transition: all 2s;
 }
 .quote-container{
@@ -240,6 +245,17 @@ select{
     width: 520px;
     padding: 18px 40px;
 }
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+}
 #digital-transformation{
     background-color: rgba(84, 144, 245, 0.2);
 }
@@ -253,19 +269,19 @@ select{
     background-color: rgb(84, 144, 245);
 }
 #btn-vision-1:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(14, 14, 14, 0.45);
 }
 #btn-vision-2{
     background-color: rgb(9, 161, 92);
 }
 #btn-vision-2:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(14, 14, 14, 0.45);
 }
 #btn-vision-3{
     background-color: rgb(255, 194, 57);
 }
 #btn-vision-3:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(14, 14, 14, 0.45);
 }
 #donate-today{
     width: fit-content;
