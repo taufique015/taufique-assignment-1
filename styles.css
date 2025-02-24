@@ -14,6 +14,35 @@ nav{
     align-items: center;
     margin-bottom: 24px;
 }
+h1{
+    font-size: 42px;
+    font-weight: 700;
+    width: 460px;
+    margin: 24px 0;
+}
+h3{
+    font-weight: 700px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    padding: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+select{
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    font-size: 16px;
+    font-weight: 500;
+}
 .btn-sign-in{
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
@@ -48,17 +77,6 @@ nav{
 }
 .hero-section, .hero-banner-img{
     margin: auto;
-}
-h1{
-    font-size: 42px;
-    font-weight: 700;
-    width: 460px;
-    margin: 24px 0;
-}
-h3{
-    font-weight: 700px;
-    font-size: 20px;
-    color: rgba(14, 14, 14, 0.8);
 }
 .hero-h1{
     width: 500px;
@@ -116,7 +134,7 @@ h3{
     border: none;
     border-radius: 8px;
     width: 128px;
-    padding: 11px 20px 11px 20px;
+    padding: 11px 20px;
     font-size: 16px;
     font-weight: 600;
 }
@@ -146,7 +164,7 @@ h3{
     padding: 32px 24px;
 }
 .quote{
-    background: url(../resources/B11A1--assignment-1/assets/quote-bg.png);
+    background: url(/assignment-1/taufique-assignment-1/assets/quote-bg.png);
     background-repeat: no-repeat ;
     padding-top: 28px;
 }
@@ -156,23 +174,45 @@ h3{
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-th{
+.table-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(198, 228, 214);
-    padding: 24px;
-    text-align: left;
-}
-td{
-    padding: 24px;
-    font-weight: 600;
-    font-size: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 600;
 }
-select{
-    padding: 10px 14px;
-    border-radius: 4px;
-    background: rgb(198, 228, 214);
+.opinion{
+    width: 18%
+}
+.recent-news-container{
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+    background: rgb(255, 255, 255);
+    border-radius: 24px;
+}
+.recent-news-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+}
+.satellite{
+    border-radius: 24px;
+}
+.read-more-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
 }
